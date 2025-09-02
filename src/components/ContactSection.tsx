@@ -126,7 +126,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/arnold-charles-442074375" target="_blank" className="text-gray-400 hover:text-white text-2xl">
               <FaLinkedin />
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" className="text-gray-400 hover:text-white text-2xl">
+            <a href="#" target="_blank" className="text-gray-400 hover:text-white text-2xl">
               <FaTwitter />
             </a>
           </div>
