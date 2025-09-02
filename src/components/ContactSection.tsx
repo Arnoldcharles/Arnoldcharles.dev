@@ -111,12 +111,12 @@ export default function Contact() {
           <p className="text-gray-400">You can also reach me directly through:</p>
 
           <div className="space-y-3">
-            <p className="flex items-center gap-3">
-              <FaEnvelope className="text-indigo-400" /> your@email.com
-            </p>
-            <p className="flex items-center gap-3">
-              <FaPhone className="text-indigo-400" /> +123 456 7890
-            </p>
+            <a href="mailto:arnoldcharles028@gmail.com" className="flex items-center gap-3">
+              <FaEnvelope className="text-indigo-400" /> arnoldcharles028@gmail.com
+            </a>
+            <a href="tel:+2349023311459" className="flex items-center gap-3">
+              <FaPhone className="text-indigo-400" /> +234 9023311459
+            </a>
           </div>
 
           <div className="flex gap-6 mt-4">
