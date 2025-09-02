@@ -39,16 +39,14 @@ const projects = [
     link: "https://image-resizer-compressor.vercel.app/",
   },
   {
-    title: "ChatGPT Tool",
-    description: "Simple chat interface connected to OpenAI API.",
+    title: "Grocery Store",
+    description: "Coming Soon",
     image: "/coming-soon.jpg",
-    link: "#",
   },
   {
     title: "Invoice Generator",
-    description: "Create, download and manage invoices online.",
+    description: "Coming Soon",
     image: "/coming-soon.jpg",
-    link: "#",
   },
 ];
 
