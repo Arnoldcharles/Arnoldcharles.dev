@@ -41,13 +41,13 @@ const projects = [
   {
     title: "ChatGPT Tool",
     description: "Simple chat interface connected to OpenAI API.",
-    image: "/images/chatgpt.png",
+    image: "/coming-soon.jpg",
     link: "#",
   },
   {
     title: "Invoice Generator",
     description: "Create, download and manage invoices online.",
-    image: "/images/invoice.png",
+    image: "/coming-soon.jpg",
     link: "#",
   },
 ];
