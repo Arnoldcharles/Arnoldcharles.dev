@@ -50,7 +50,7 @@ export default function Hero() {
 
       {/* Call to action */}
       <motion.a
-        href="#projects"
+        href="/projects"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
