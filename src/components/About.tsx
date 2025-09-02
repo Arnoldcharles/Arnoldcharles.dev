@@ -55,14 +55,16 @@ export default function About() {
           {/* Call-to-Action */}
           <div className="flex gap-4">
             <a
-              href="/cv.pdf" // Replace with your CV in public folder
+              href="/cv.pdf"
               download
               className="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition duration-300"
             >
               Download CV
             </a>
             <a
-              href="#contact"
+              href="https://wa.me/message/A4WPMQ2P765WA1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg shadow hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300"
             >
               Hire Me
