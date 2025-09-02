@@ -21,14 +21,14 @@ const Projects = () => {
       img: "/project3.png",
     },
     {
-      title: "Weather App",
-      desc: "Live weather data app",
-      img: "/project4.jpg",
+      title: "Sewas-Styles",
+      desc: "Clothing e-commerce with payment integration",
+      img: "/project4.png",
     },
     {
-      title: "Task Manager",
-      desc: "Productivity app with MongoDB",
-      img: "/project5.jpg",
+      title: "MySchoolApp",
+      desc: "A school management application with student and teacher portals.",
+      img: "/project5.png",
     },
     {
       title: "Chat App",
