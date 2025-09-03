@@ -55,7 +55,7 @@ export default function About() {
           {/* Call-to-Action */}
           <div className="flex gap-4">
             <a
-              href="/cv.pdf"
+              href="#"
               download
               className="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition duration-300"
             >
