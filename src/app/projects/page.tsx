@@ -4,19 +4,22 @@ import React from "react";
 const projects = [
   {
     title: "LensCraft",
-    description: "A sleek photography portfolio to display your best moments with elegant simplicity. Built with Next.js and Tailwind CSS.",
+    description:
+      "A sleek photography portfolio to display your best moments with elegant simplicity. Built with Next.js and Tailwind CSS.",
     image: "/project1.png",
     link: "https://lens-craft-flax.vercel.app/",
   },
   {
     title: "E-Shop",
-    description: "A vibrant, full-featured e-commerce mockup featuring tech, fashion, and accessories.",
+    description:
+      "A vibrant, full-featured e-commerce mockup featuring tech, fashion, and accessories.",
     image: "/project2.png",
     link: "https://e-shop-lemon-gamma.vercel.app/",
   },
   {
     title: "FashionDesign",
-    description: "Where craftsmanship meets digital style: explore collections like “Spring Bloom,” “Urban Chic,” and “Evening Elegance.",
+    description:
+      "Where craftsmanship meets digital style: explore collections like “Spring Bloom,” “Urban Chic,” and “Evening Elegance.",
     image: "/project3.png",
     link: "https://fashion-design-mocha.vercel.app/",
   },
@@ -28,13 +31,15 @@ const projects = [
   },
   {
     title: "MySchool",
-    description: " A modern school site emphasizing community, character building, and academic excellence—complete with admissions, values, gallery, and upcoming events.",
+    description:
+      " A modern school site emphasizing community, character building, and academic excellence—complete with admissions, values, gallery, and upcoming events.",
     image: "/project5.png",
     link: "https://school-website-swart-beta.vercel.app/",
   },
   {
     title: "Image Resizer + Compressor Tool",
-    description: "A crisp, minimal web tool for resizing and compressing images instantly.",
+    description:
+      "A crisp, minimal web tool for resizing and compressing images instantly.",
     image: "/project6.png",
     link: "https://image-resizer-compressor.vercel.app/",
   },
@@ -83,7 +88,7 @@ export default function ProjectsPage() {
                 </p>
                 <a
                   href={project.link}
-                    target="_blank"
+                  target="_blank"
                   className="inline-block text-blue-500 hover:underline"
                 >
                   View Project →

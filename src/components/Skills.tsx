@@ -15,7 +15,10 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
+    <section
+      id="skills"
+      className="py-20 bg-gradient-to-b from-gray-900 to-gray-800 text-white"
+    >
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Heading */}
         <motion.h2

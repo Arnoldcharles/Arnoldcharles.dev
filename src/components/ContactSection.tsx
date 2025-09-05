@@ -1,7 +1,13 @@
 "use client";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaPhone } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaEnvelope,
+  FaPhone,
+} from "react-icons/fa";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -14,7 +20,9 @@ export default function Contact() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState("");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -46,12 +54,17 @@ export default function Contact() {
     <section id="contact" className="py-16 px-6 bg-gray-900 text-white">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Contact Me</h2>
-        <p className="text-gray-400 mb-8">Let’s work together or just say hello 👋</p>
+        <p className="text-gray-400 mb-8">
+          Let’s work together or just say hello 👋
+        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
         {/* Contact Form */}
-        <form onSubmit={handleSubmit} className="bg-gray-800 p-8 rounded-2xl shadow-lg">
+        <form
+          onSubmit={handleSubmit}
+          className="bg-gray-800 p-8 rounded-2xl shadow-lg"
+        >
           <div className="mb-4">
             <input
               type="text"
@@ -92,7 +105,7 @@ export default function Contact() {
               value={formData.message}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500"
+              className="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 resize-none"
             />
           </div>
           <button
@@ -108,11 +121,17 @@ export default function Contact() {
         {/* Contact Info */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6">
           <h3 className="text-2xl font-bold">Let’s Connect</h3>
-          <p className="text-gray-400">You can also reach me directly through:</p>
+          <p className="text-gray-400">
+            You can also reach me directly through:
+          </p>
 
           <div className="space-y-3">
-            <a href="mailto:arnoldcharles028@gmail.com" className="flex items-center gap-3">
-              <FaEnvelope className="text-indigo-400" /> arnoldcharles028@gmail.com
+            <a
+              href="mailto:arnoldcharles028@gmail.com"
+              className="flex items-center gap-3"
+            >
+              <FaEnvelope className="text-indigo-400" />{" "}
+              arnoldcharles028@gmail.com
             </a>
             <a href="tel:+2349023311459" className="flex items-center gap-3">
               <FaPhone className="text-indigo-400" /> +234 9023311459
@@ -120,13 +139,25 @@ export default function Contact() {
           </div>
 
           <div className="flex gap-6 mt-4">
-            <a href="https://github.com/Arnoldcharles" target="_blank" className="text-gray-400 hover:text-white text-2xl">
+            <a
+              href="https://github.com/Arnoldcharles"
+              target="_blank"
+              className="text-gray-400 hover:text-white text-2xl"
+            >
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/arnold-charles-442074375" target="_blank" className="text-gray-400 hover:text-white text-2xl">
+            <a
+              href="https://www.linkedin.com/in/arnold-charles-442074375"
+              target="_blank"
+              className="text-gray-400 hover:text-white text-2xl"
+            >
               <FaLinkedin />
             </a>
-            <a href="#" target="_blank" className="text-gray-400 hover:text-white text-2xl">
+            <a
+              href="#"
+              target="_blank"
+              className="text-gray-400 hover:text-white text-2xl"
+            >
               <FaTwitter />
             </a>
           </div>
