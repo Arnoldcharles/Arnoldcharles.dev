@@ -44,9 +44,11 @@ const projects = [
     link: "https://image-resizer-compressor.vercel.app/",
   },
   {
-    title: "Grocery Store",
-    description: "Coming Soon",
+    title: "Peace Grocery Store",
+    description:
+      "It’s an online grocery store: a web site where users can browse categories of groceries (fruits, vegetables, dairy, snacks, etc.), see featured items and deals, read customer reviews, subscribe to newsletters, and ultimately order groceries for delivery.",
     image: "/coming-soon.jpg",
+    link: "https://peace-grocery-store.vercel.app/",
   },
   {
     title: "Invoice Generator",
